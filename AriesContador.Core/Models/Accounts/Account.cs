@@ -1,18 +1,10 @@
 ﻿using AriesContador.Core.Models.Accounts.Behavior;
 using AriesContador.Core.Models.Utils;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using CapaEntidad.Entidades.JournalEntries;
-using CapaEntidad.Utils;
 
 namespace AriesContador.Core.Models.Accounts
 {
     public class Account : BaseAccount
     {
-        //public List<JournalEntryLine> JournalEntryLines { get; set; }
-        //    = new List<JournalEntryLine>();
-
         public int? FatherAccount { get; set; }
 
         public DebOCred DebOCred { get; set; }

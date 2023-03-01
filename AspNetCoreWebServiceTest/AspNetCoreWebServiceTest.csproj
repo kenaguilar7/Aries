@@ -14,10 +14,6 @@
    </ItemGroup>
 
    <ItemGroup>
-     <ProjectReference Include="..\AspNetCoreWebService\AspNetCoreWebService.csproj" />
-   </ItemGroup>
-
-   <ItemGroup>
      <Folder Include="Controllers\" />
    </ItemGroup>
 </Project>
